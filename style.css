@@ -1,0 +1,39 @@
+
+/* 내용물 정렬 */
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* 배경 커버 멋지게 */
+img {
+    mask-image: url("주소");
+    -webkit-mask-image: url()
+}
+
+/* 사진 크기 적당하게 알아서 잘 조절 */
+img {
+    object-fit: cover;
+}
+
+/* 마우스 갖다대면 자연스럽게 확대 */
+img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* x축 y축으로 틀어짐 */
+.seciton1 {
+    transform: skew(0deg, -10deg)
+}
+
+/* 글자는 원상복귀 */
+.contents {
+    transform: skew(0deg, 10deg)
+}
+
+/* 하나의 이미지 분할로 공유 */
+li {
+    background-attachment: fixed;
+}
