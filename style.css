@@ -45,6 +45,12 @@
   align-content: space-around;
 }
 
+/* 반응형 웹 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 /* 배경 커버 멋지게 */
 img {
   mask-image: url("주소");
