@@ -30,6 +30,15 @@
   justify-content: center;
 }
 
+ /*내용물 세로정렬*/
+.center {
+   display: flex;
+   flex-direction: column;    
+   align-items: center;
+   justify-content: center;
+}
+
+
 .align {
   align-items: center;
 
